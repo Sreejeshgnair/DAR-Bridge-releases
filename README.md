@@ -1,10 +1,14 @@
-# DAR Bridge Releases
+# DAR Bridge
 
-Release distribution for DAR Bridge, a macOS app that connects your Dolby Atmos Renderer to an Avid control surface.
+**Control the Dolby Atmos Renderer from your Avid surface.**
 
-**Control the Dolby Atmos Renderer from your S6, S4, Artist or Avid Control.** Monitoring level, Dim, Cut, speaker layouts, transport and loudness, all from the desk instead of reaching for the Renderer window.
+Monitoring level, Dim, Cut, speaker layouts, transport and loudness, all from the desk instead of reaching for the Renderer window every time. Works with S6, S4, Artist, S1, S3, Dock and Avid Control.
 
-It also opens up HTTP and OSC on this Mac, so Stream Deck and SoundFlow can drive the Renderer too.
+It also opens up HTTP and OSC on the same Mac, so Stream Deck and SoundFlow can drive the Renderer too.
+
+Free. Signed and notarised by Apple. One build runs on Apple Silicon and Intel.
+
+**[Download the latest version](../../releases/latest)**
 
 ---
 
