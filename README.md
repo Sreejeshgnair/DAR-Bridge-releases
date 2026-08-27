@@ -10,6 +10,8 @@ Free. Signed and notarised by Apple. One build runs on Apple Silicon and Intel.
 
 **[Download the latest version](../../releases/latest)**
 
+This is a personal project. It is not made by, endorsed by or supported by Avid or Dolby.
+
 ---
 
 ## Download and Install
@@ -96,3 +98,17 @@ Closing the window does not quit the app. Use the menu bar icon and choose Quit.
 Logs live in `~/Library/Logs/DAR Bridge/`.
 
 The DMG also carries a standalone `DAR-Bridge` command line tool. You only need that if you want HTTP and OSC without the surface side. Do not run both at once, they share the same port.
+
+---
+
+## Please Note
+
+This is a personal project. I built it for my own room because I was tired of reaching for the Renderer window in the middle of a mix, and I am sharing it in case it is useful to you too.
+
+It is **not** an Avid product and **not** a Dolby product. It is not made by, endorsed by, supported by or affiliated with either company. Please do not contact Avid or Dolby support about it. If something is not working, raise an issue here instead and I will help if I can.
+
+It is offered free and as is, with no warranty of any kind. You are using it at your own risk. Do test it properly in your own room before you rely on it for a paying session.
+
+**Tested on WSControl 2026.4.** Other versions will very likely work, but that is the one I have actually run it against. If you try it on a different version, do let me know how it goes so I can add it here.
+
+Avid, EuCon, EuControl, WSControl, S4, S6, Artist and Avid Control are trademarks of Avid Technology. Dolby and Dolby Atmos are trademarks of Dolby Laboratories. Both are used here only to describe what this app works with.
