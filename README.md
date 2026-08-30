@@ -16,7 +16,7 @@ This is a personal project. It is not made by, endorsed by or supported by Avid 
 
 ## Download and Install
 
-1. Grab **`DAR-Bridge-1.2.0.dmg`** from the Releases page.
+1. Grab **`DAR-Bridge-1.2.1.dmg`** from the Releases page.
 2. Open the DMG and drag **DAR Bridge** into **Applications**.
 3. Launch it. The app is signed and notarised by Apple, so it opens without any security warning.
 4. When macOS asks for **Local Network** access, click **Allow**. This one is important. Without it the surface cannot see the app at all.
