@@ -16,7 +16,7 @@ This is a personal project. It is not made by, endorsed by or supported by Avid 
 
 ## Download and Install
 
-1. Grab **`DAR-Bridge-1.1.0.dmg`** from the Releases page.
+1. Grab **`DAR-Bridge-1.2.0.dmg`** from the Releases page.
 2. Open the DMG and drag **DAR Bridge** into **Applications**.
 3. Launch it. The app is signed and notarised by Apple, so it opens without any security warning.
 4. When macOS asks for **Local Network** access, click **Allow**. This one is important. Without it the surface cannot see the app at all.
@@ -42,11 +42,20 @@ S4 and S6 use **WSControl**. Artist, S1, S3, Dock and Avid Control use **EuContr
 
 | Control | What it does |
 |---------|--------------|
-| Main knob | Monitoring level in dB, follows the Renderer |
+| Main knob | Monitoring level, in dB or on the cinema fader scale, follows the Renderer |
 | Dim | Dim on and off |
 | Cut | Global mute |
 | Main, Alt 1, Alt 2 | Physical, 7.1 and 5.1 |
 | Talk | Switches between Master and Input |
+
+**Settings**
+
+Two options live in Settings, under EuCon.
+
+| Option | What it does |
+|--------|--------------|
+| Enable / Disable Gain Control from Surface | Turn it off and the Main knob stops changing the Renderer level. It still follows along, so you can see where the room is sitting, it just will not move it. The Cinema soft keys keep working, so you can still recall a level on purpose. Handy when the room level belongs to the cinema processor and you do not want the knob nudged by accident. |
+| Show level as Dolby Cinema scale | The Main knob reads in cinema fader numbers instead of dB. 7.0 is reference, 4.0 is 10 dB down, and 0.0 is off, following the standard Dolby fader taper. 7.0 is as high as it goes, because the Renderer will not go above unity. |
 
 **Soft keys**
 
